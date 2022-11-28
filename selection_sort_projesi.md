@@ -23,7 +23,7 @@ Diziyi küçükten büyüğe doğru sıralıyoruz.
 `n` elemanlı bir dizi olduğunu varsayalım.
 Insertion sort yönteminde bu dizideki ilk aşamada `n` tane eleman kontrol edilir, işlem yapılır.\
 2. aşamada `n-1` işlem (kotrol-yer değiştirme),\
-3. aşamada `n-2` işlem (kotrol-yer değiştirme) yapılır.
+3. aşamada `n-2` işlem (kotrol-yer değiştirme) yapılır.\
 Aşamalar en sonda `1` eleman ve `1` işlem kalana kadar devam eder.
 
 - Algoritmada `n+(n-1)+(n-2)+...+2+1` kadar işlem yapılmış olur.
@@ -43,7 +43,7 @@ Dizinin sıralanmış hali: `[2,6,16,18,22,27]`
 
 ### [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 
-**1-** `2` en küçük olduğu için `7` ile yer değiştirir. &rArr; [``2``,3,5,8,7,9,4,15,6]
-**2-** İkinci sırada `3` doğru yerdedir. &rArr; [2,``3``,5,8,7,9,4,15,6]
-**3-** Üçüncü sırada `4`, `5` ile yer değiştirir. &rArr; [2,3,``4``,8,7,9,5,15,6]
+**1-** `2` en küçük olduğu için `7` ile yer değiştirir. &rArr; [``2``,3,5,8,7,9,4,15,6]\
+**2-** İkinci sırada `3` doğru yerdedir. &rArr; [2,``3``,5,8,7,9,4,15,6]\
+**3-** Üçüncü sırada `4`, `5` ile yer değiştirir. &rArr; [2,3,``4``,8,7,9,5,15,6]\
 **4-** Dördüncü sırada `5`, `8`' ile yer' değiştirir. &rArr; [2,3,4,``5``,7,9,8,15,6]
